@@ -1,0 +1,29 @@
+{
+  "name": "backx",
+  "version": "1.0.0",
+  "description": "A minimal Express.js backend structure generator",
+  "main": "bin/cli.js",
+  "bin": {
+    "backx": "bin/cli.js"
+  },
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "keywords": [
+    "express",
+    "backend",
+    "generator",
+    "cli",
+    "scaffold",
+    "api",
+    "structure"
+  ],
+  "author": "Surya Pugazh",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "ejs": "^3.1.9",
+    "inquirer": "^9.2.15"
+  }
+}
